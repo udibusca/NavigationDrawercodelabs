@@ -44,7 +44,6 @@ class ListaAdapter extends BaseAdapter {
         Aluno aluno = lista.get(position);
         //obter a referncia da view
         View linha = LayoutInflater.from(contexto).inflate(R.layout.layout_da_linha_do_listview, null);
-
         //preencher a linha
         ImageView imagem = (ImageView) linha.findViewById(R.id.imageViewCirculo);
         TextView nomeAluno = (TextView) linha.findViewById(R.id.textViewNome);
